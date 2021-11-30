@@ -16,7 +16,7 @@ jobs:
         # 构建结果存储的分支
         TARGET_BRANCH: main
         # 要使用的构建命令
-        BUILD_SCRIPT: hexo clean && hexo g
+        BUILD_SCRIPT: yarn && yarn build
         # 构建结果存储目录
         BUILD_DIR: docs/.vuepress/dist/
   sync:
